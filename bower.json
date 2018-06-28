@@ -1,0 +1,17 @@
+{
+  "name": "isometric",
+  "main": "index.js",
+  "homepage": "https://github.com/AmedeoSpagnolo/isometric",
+  "description": "",
+  "authors": [
+    "Amedeo Spagnolo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
