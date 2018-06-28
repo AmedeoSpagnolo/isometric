@@ -4,7 +4,7 @@ Simple isometric shapes and animation for the web
 
 #### install
 
-		bower install https://github.com/AmedeoSpagnolo/isometric.git
+		bower install https://github.com/AmedeoSpagnolo/isometric.git --save
 
 #### include in the project
 
