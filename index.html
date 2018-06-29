@@ -5,9 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    #cube{
+      width: 40rem;
+      height: 40rem;
+      background-color: gray;
+    }
+  </style>
 </head>
 <body>
   asd
+  <div id="cube"></div>
   <script type="text/javascript" src="lib/isometric.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/d3/d3.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+        isometric.cube('#cube')
+      })
+  </script>
 </body>
 </html>
