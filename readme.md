@@ -13,5 +13,9 @@ Simple isometric shapes and animation for the web
 #### example
 
 		// example
+		<script type="text/javascript" src="bower_components/isonometric/lib/isonometric.js"></script>
+		<script type="text/javascript" src="bower_components/isonometric/lib/isonometric.js"></script>
+
+
 
 https://codepen.io/jordizle/pen/haIdo/

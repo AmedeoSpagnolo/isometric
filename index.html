@@ -5,24 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <style>
-    #cube{
+  <link rel="stylesheet" type="text/css" href="style/cube.css">
+  <style media="screen">
+    #wrapper{
       width: 40rem;
       height: 40rem;
       background-color: gray;
+      padding-top: 5%;
     }
   </style>
 </head>
 <body>
-  asd
-  <div id="cube"></div>
+
+  <!-- cube -->
+  <div id="wrapper"></div>
+
   <script type="text/javascript" src="lib/isometric.js"></script>
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
   <script type="text/javascript" src="bower_components/d3/d3.js"></script>
   <script type="text/javascript">
-      $(document).ready(function(){
-        isometric.cube('#cube')
-      })
+    $(document).ready(function(){
+      isometric.cube('#wrapper', {"perspective": 400})
+    })
   </script>
 </body>
 </html>
